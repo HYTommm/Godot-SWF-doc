@@ -727,7 +727,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../api/C#原生API/SWF.md" class="md-nav__link">
+      <a href="../../api/CSharp%E5%8E%9F%E7%94%9FAPI/SWF/" class="md-nav__link">
         
   
   
@@ -927,19 +927,11 @@
   <h1>安装</h1>
 
 <h2 id="_1">如何快速安装<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<p>此插件使用C#编写，同时，为了兼容gds生态，我也设计了gds的birdge类进行简化调用。</p>
+<p>本插件使用C#编写，同时，为了兼容gds生态，本插件也设计了gds的birdge类进行简化调用。</p>
 <h3 id="1-godot">1. 安装Godot<a class="headerlink" href="#1-godot" title="Permanent link">&para;</a></h3>
 <ul>
-<li>
-<ol>
 <li>安装Godot引擎，版本要求为4.3及以上（推荐4.4.1）。要求是.Net版本。</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>下载.Net运行时，版本要求为8.0及以上。（推荐8.0）</li>
-</ol>
-</li>
 </ul>
 <h3 id="2">2. 下载插件<a class="headerlink" href="#2" title="Permanent link">&para;</a></h3>
 <h3 id="3">3. 安装插件<a class="headerlink" href="#3" title="Permanent link">&para;</a></h3>
@@ -987,7 +979,7 @@
 </span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="w">    </span><span class="nt">&lt;HintPath&gt;</span>Godot-SWF/dlls/SwfLib.dll<span class="nt">&lt;/HintPath&gt;</span>
 </span><span id="__span-2-18"><a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="nt">&lt;/Reference&gt;</span>
 </span></code></pre></div>
-<p>为了避免裁剪程序集，请在添加以下内容：</p>
+<p>为了避免裁剪程序集，请再添加以下内容：</p>
 <div class="language-xml highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nt">&lt;TrimmerRootAssembly</span><span class="w"> </span><span class="na">Include=</span><span class="s">&quot;GodotSharp&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
 </span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nt">&lt;TrimmerRootAssembly</span><span class="w"> </span><span class="na">Include=</span><span class="s">&quot;Clipper2Lib&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
 </span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="nt">&lt;TrimmerRootAssembly</span><span class="w"> </span><span class="na">Include=</span><span class="s">&quot;Godot SWF&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
